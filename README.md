@@ -26,27 +26,7 @@ Follow these steps to set up the project locally:
 Utilizes JWT tokens for secure user authentication.
 Implements authorization to control access to different parts of the system.
 
-## Product Operations
-Add Product:
 
-Endpoint: /api/products/add
-Method: POST
-Update Product:
-
-Endpoint: /api/products/update/{productId}
-Method: PUT
-Delete Product:
-
-Endpoint: /api/products/delete/{productId}
-Method: DELETE
-Get Single Product:
-
-Endpoint: /api/products/{productId}
-Method: GET
-Change Single Field of Product:
-
-Endpoint: /api/products/update-field/{productId}
-Method: PUT
 
 # Additional Notes
 Ensure that you have the necessary environment variables set up, such as database connection details and JWT secret key.
