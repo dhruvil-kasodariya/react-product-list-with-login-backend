@@ -21,6 +21,37 @@ Follow these steps to set up the project locally:
    yarn
    yarn start
 
+# Functionality
+User Authentication & Authorization
+Utilizes JWT tokens for secure user authentication.
+Implements authorization to control access to different parts of the system.
+Product Operations
+Add Product:
+
+Endpoint: /api/products/add
+Method: POST
+Update Product:
+
+Endpoint: /api/products/update/{productId}
+Method: PUT
+Delete Product:
+
+Endpoint: /api/products/delete/{productId}
+Method: DELETE
+Get Single Product:
+
+Endpoint: /api/products/{productId}
+Method: GET
+Change Single Field of Product:
+
+Endpoint: /api/products/update-field/{productId}
+Method: PUT
+
+# Additional Notes
+Ensure that you have the necessary environment variables set up, such as database connection details and JWT secret key.
+Follow any additional instructions or documentation provided in the project repository for a smooth setup and development experience.
+Feel free to reach out if you have specific questions or need further assistance!
+
 
 
 
