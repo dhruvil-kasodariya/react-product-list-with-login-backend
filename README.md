@@ -17,6 +17,11 @@ Follow these steps to set up the project locally:
 1. **Clone the Repository:**
    ```bash
    git clone <repository_url>
+   cd <project_directory>
+   yarn
+   yarn start
+
+
 
 
 
