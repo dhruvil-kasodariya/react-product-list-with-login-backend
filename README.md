@@ -21,12 +21,12 @@ Follow these steps to set up the project locally:
    yarn
    yarn start
 
-## Functionality
-# User Authentication & Authorization
+# Functionality
+## User Authentication & Authorization
 Utilizes JWT tokens for secure user authentication.
 Implements authorization to control access to different parts of the system.
 
-#Product Operations
+## Product Operations
 Add Product:
 
 Endpoint: /api/products/add
